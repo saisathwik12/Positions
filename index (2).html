@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .div1{
+            
+        }
+        .div1 h1{
+            position: absolute;
+            margin: 0;
+            mix-blend-mode: screen;
+            
+            padding: 0 620px;
+            background-color: rgba(0, 140, 255, 0.571);
+            font-size: 100px;
+        }
+        .div2{
+            display: flex;
+            position: absolute;
+            bottom: 5px;
+            
+        }
+        .div2 img{
+            mix-blend-mode:color-burn;
+            margin-left: 30px;
+
+        }
+        .div2 p{
+            margin-left: 50px;
+        }
+        #img2{
+            position: absolute;
+            right: 50px;
+            top: 300px;
+            mix-blend-mode:multiply;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Flying</h1>
+        <video autoplay muted loop width="100%">
+            <source src="videoplayback.mp4">
+        </video>
+
+        <div class="div2">
+            <img src="https://images.unsplash.com/photo-1530724752761-76d7070d8c5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="800" alt=""> 
+            <p>Aviation is proof that given the will, we have the capacity to achieve the impossible. <br>Flying is more than a sport and more than a job; flying is pure passion and desire, which fill a lifetime.</p>
+            
+        </div>
+        <img id="img2" src="https://c4.wallpaperflare.com/wallpaper/190/622/510/iron-man-superheroes-4k-hd-wallpaper-preview.jpg" width="600px" alt="">
+    </div>
+    
+</body>
+</html>
